@@ -14,11 +14,15 @@ Backlog items
 1.   I had trained a CIFAR10 model for this problem but results were awful (75%)
      so, I discarded them.
 
-2.   My predictions with ResNET model can be found in this github page, it's name
-     is "test.preds.csv".
+2.   My predictions with ResNET model can be found in dropbox in the following link:
+     https://www.dropbox.com/sh/vmlmxnvmuc2naet/AABoqAvJ8Eha73Cgogfi5USKa?dl=0
+     it's name is "test.preds.csv".
 
-3.   Test set images with correct orientations also can be found here, it's name
-     is "ziptest.rar".
+     numpy array with pred images also can be found in dropbox with the name: test_array.npy
+
+3.   Test set images with correct orientations also can be found in the dropbox
+     https://www.dropbox.com/sh/vmlmxnvmuc2naet/AABoqAvJ8Eha73Cgogfi5USKa?dl=0
+     it's name is "ziptest.rar".
 
 4.   To run this code just type:
 
@@ -26,9 +30,11 @@ Backlog items
 
      You will need:
      * Image files on "test" folder
-     * Weigths and defintions of this ResNET model that were sent by e-mail.
+     * Weigths and defintions of this ResNET model that can be found in the
+       dropbox:
+       https://www.dropbox.com/sh/vmlmxnvmuc2naet/AABoqAvJ8Eha73Cgogfi5USKa?dl=0
+       Their names are: rotvision_trained_model.h5 and rotvision_trained_model.json
        You have to paste them at "saved_models" folder.
-
 
 5.   The summary of my apprach is described above.
 
